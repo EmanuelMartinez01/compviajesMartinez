@@ -1,0 +1,68 @@
+img {
+    object-fit: cover;
+}
+
+.card-group {
+    padding: 0.3125em 0.3125em;
+}
+
+// condicionales
+
+$color: #393E46;
+
+p {
+    @if ($color == #393E46) {
+        color: #393E46;
+    }
+    @else if ($color == darkgrey) {
+        color: darkgrey;
+    }
+    @else  {
+        color: white;
+    }
+}
+
+$color: black;
+
+h5 {
+    @if ($color == yellow) {
+        color: yellow;
+    }
+    @else if ($color == black) {
+        color: black;
+    }
+    @else {
+        color: green;
+    }
+}
+
+// Bucle FOR
+
+.titulo-Carta { 
+    font-size: 20px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+@for $i from 1 through 4 {
+    .titulo-Carta#{$i} {
+        font-size: $i * 2em;
+    }
+}
+
+//each mapas
+
+$colors: (
+    youtube: #D16E8D,
+    articulos: #FFAC83,
+    comunidad: #3F78C9,
+    gente: #49C4A3,
+    viajes:#222831
+);
+
+@each $name, $color in $colors {
+    .#{$name} {
+        color: $color;
+        font-weight: bold;
+    }
+}

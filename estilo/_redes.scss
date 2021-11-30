@@ -1,0 +1,17 @@
+.redes-sociales {
+    margin: 1.5625em;
+    text-align: center;
+    color: $color4;
+}
+
+.redes-sociales {
+    i {
+    color: $color4;
+    margin: 0.3125em;
+    font-size: 1.25em;
+    }
+}
+
+.redes-sociales i:hover {
+    color: $color5;
+}

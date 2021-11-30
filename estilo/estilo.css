@@ -1,0 +1,398 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: #EEEEEE;
+  letter-spacing: 0.03em;
+  line-height: 1.6;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #393E46;
+}
+
+h1 {
+  color: #EEEEEE;
+  background-color: #222831;
+  padding-bottom: 0.625em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  width: 18.75em;
+  height: 25rem;
+}
+
+video {
+  width: 18.75em;
+  height: 25em;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 0px 5px 1px #373737;
+          box-shadow: 0px 0px 5px 1px #373737;
+}
+
+.text-deco1 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.form-group {
+  max-width: 25rem;
+}
+
+@media only screen and (max-width: 18.75em) {
+  .grid-padre {
+    color: #393E46;
+    background-color: crimson;
+    font-size: 3.125em;
+  }
+}
+
+@media only screen and (min-width: 36em) {
+  .grid-padre {
+    background-color: chocolate;
+  }
+}
+
+@media only screen and (min-width: 75em) {
+  .grid-padre {
+    background-color: #EEEEEE;
+    font-size: 3.75em;
+  }
+}
+
+.text-deco {
+  text-decoration: underline;
+}
+
+.h3__ul--color {
+  color: #fff;
+}
+
+p {
+  text-align: center;
+}
+
+p span {
+  color: #222831;
+}
+
+.anim-ofer img {
+  max-width: 18.75em;
+  border-radius: 0.375em;
+}
+
+.anim-ofer:hover {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  -webkit-box-shadow: 0rem 0em 0.3125em 0.0625em #373737;
+          box-shadow: 0rem 0em 0.3125em 0.0625em #373737;
+  border-radius: 0.375em;
+}
+
+.anim-ofer a {
+  text-decoration: none;
+  color: #393E46;
+}
+
+.info-Lista a {
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+}
+
+.quienes-Somos {
+  color: #393E46;
+  font-family: "Cantarell", sans-serif;
+}
+
+.info-Lista {
+  color: white;
+}
+
+footer {
+  background-color: #222831;
+}
+
+.carousel-inner img {
+  background-position: center;
+  background-size: cover;
+}
+
+.check {
+  display: inline-block;
+  border: 0.0625em solid #222831;
+  border-radius: 0.5em;
+  padding: 0.9375em;
+  margin: 1.875em;
+  text-align: justify;
+}
+
+.grid-padre2 {
+  background-color: #EEEEEE;
+  height: auto;
+  width: 80%;
+  margin: auto;
+  padding: 2%;
+  display: -ms-grid;
+  display: grid;
+  grid-column-gap: 1.25em;
+  grid-row-gap: 1.25em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+      grid-template-areas: "lobby lobby2";
+}
+
+.lobby {
+  grid-area: "lobby";
+  background-color: coral;
+  background-image: url(../img/lobby.jpg);
+  background-size: cover;
+}
+
+.lobby2 {
+  grid-area: "lobby2";
+  background-image: url(../img/lobby2.jpg);
+  background-size: cover;
+}
+
+.box {
+  min-height: 18.75rem;
+  min-width: 12.5rem;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+
+.grid-padre {
+  height: auto;
+  width: 20%;
+  margin: auto;
+  padding: 2%;
+  display: -ms-grid;
+  display: grid;
+  grid-column-gap: 1.25em;
+  grid-row-gap: 1.25em;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+      grid-template-areas: "canada francia" "italia eeuu";
+}
+
+.caja {
+  min-height: 12.5em;
+  min-width: 12.5em;
+  border: 0.125em solid #EEEEEE;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+
+.caja:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: 0.7s;
+  transition: 0.7s;
+  -webkit-box-shadow: 0rem 0em 0.3125em 0.0625em #EEEEEE;
+          box-shadow: 0rem 0em 0.3125em 0.0625em #EEEEEE;
+}
+
+.canada {
+  grid-area: "canada";
+  background-color: coral;
+  background-image: url(../img/canada.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.francia {
+  grid-area: "francia";
+  background-image: url(../img/francia.jpg);
+  background-size: cover;
+}
+
+.italia {
+  grid-area: "italia";
+  background-image: url(../img/italia.jpg);
+  background-size: cover;
+}
+
+.eeuu {
+  grid-area: "eeuu";
+  background-image: url(../img/eeuu.jpg);
+  background-size: cover;
+}
+
+p {
+  color: #393E46;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 50px;
+}
+
+.flex-padre2 {
+  width: 70%;
+  max-width: 75em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: auto;
+  background-color: #EEEEEE;
+}
+
+.flex-colum2 {
+  margin: 1.25em;
+  border-radius: 20%;
+  overflow: hidden;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-bottom: 6.25em;
+  -webkit-box-shadow: 0 0.625em 0.625em rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0.625em 0.625em rgba(0, 0, 0, 0.5);
+}
+
+.flex-colum2 img {
+  background-size: cover;
+}
+
+.flex-colum2 a {
+  text-decoration: none;
+  color: #393E46;
+}
+
+.flex-colum2:hover {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+  -webkit-box-shadow: 0rem 0em 0.3125em 0.0625em #393E46;
+          box-shadow: 0rem 0em 0.3125em 0.0625em #393E46;
+}
+
+.flex-colum2:hover a {
+  color: #FFD369;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.fon__let--est {
+  font-family: italic;
+  color: #393E46;
+}
+
+.input-group {
+  max-width: 100%;
+  margin-bottom: 5%;
+  padding-left: 35%;
+  padding-right: 30%;
+  margin: 0.625em 0em;
+}
+
+.sup__lis--funt {
+  font-size: 1.125em;
+  font-weight: lighter;
+}
+
+.sup__lis--funt strong {
+  color: #FFD369;
+}
+
+.fuen__subtitulo--rayado {
+  font-weight: lighter;
+  text-decoration: underline;
+}
+
+.redes-sociales {
+  margin: 1.5625em;
+  text-align: center;
+  color: #fff;
+}
+
+.redes-sociales i {
+  color: #fff;
+  margin: 0.3125em;
+  font-size: 1.25em;
+}
+
+.redes-sociales i:hover {
+  color: #FFD369;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card-group {
+  padding: 0.3125em 0.3125em;
+}
+
+p {
+  color: #393E46;
+}
+
+h5 {
+  color: black;
+}
+
+.titulo-Carta {
+  font-size: 20px;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.titulo-Carta1 {
+  font-size: 2em;
+}
+
+.titulo-Carta2 {
+  font-size: 4em;
+}
+
+.titulo-Carta3 {
+  font-size: 6em;
+}
+
+.titulo-Carta4 {
+  font-size: 8em;
+}
+
+.youtube {
+  color: #D16E8D;
+  font-weight: bold;
+}
+
+.articulos {
+  color: #FFAC83;
+  font-weight: bold;
+}
+
+.comunidad {
+  color: #3F78C9;
+  font-weight: bold;
+}
+
+.gente {
+  color: #49C4A3;
+  font-weight: bold;
+}
+
+.viajes {
+  color: #222831;
+  font-weight: bold;
+}
+/*# sourceMappingURL=estilo.css.map */

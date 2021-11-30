@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+// Paleta colores 
+    $color1: #EEEEEE;
+    $color2: #393E46;
+    $color3: #222831;
+    $color4: #fff;
+    $color5: #FFD369;
+
+// Textos
+    $font: 'Cantarell', sans-serif;
+    $font2: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+
+
+body {
+    background: $color1;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+    font-family: $font2;
+    color: $color2;
+}
+
+h1 {
+    color: $color1;
+    background-color: $color3;
+    padding-bottom: 0.625em;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    width: 18.75em;
+    height: 25rem;
+}
+video {
+    width: 18.75em;
+    height: 25em;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px 1px #373737;
+}
+
+.text-deco1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+
+//Contacto
+.form-group {
+    max-width: 25rem;
+}
+
+
+
+//Media
+@media only screen and (max-width: 18.75em) {
+    .grid-padre { 
+        color: $color2;
+        background-color: crimson;
+        font-size: 3.125em;
+    }
+}
+
+@media only screen and (min-width: 36em) {
+    .grid-padre {
+        background-color: chocolate;
+    }
+}
+
+@media only screen and (min-width: 75em) {
+    .grid-padre {
+        background-color: $color1;
+        font-size: 3.75em;
+    }
+}
+
+
+
+
+
+@import "_menu";
+@import "_footer";
+@import "_vuelos";
+@import "_exclusivo";
+@import "_ofertas";
+@import "_destinos";
+@import "_soporte";
+@import "_redes";
+@import "_blog";

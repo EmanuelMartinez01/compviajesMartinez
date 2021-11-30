@@ -1,0 +1,59 @@
+.grid-padre {
+
+    height: auto;
+    width: 20%;
+    margin: auto;
+    padding: 2%;
+    display: grid;
+    grid-column-gap: 1.25em;
+    grid-row-gap: 1.25em;
+    justify-content: space-around;
+    grid-template-areas:
+                 "canada francia"
+                 "italia eeuu";
+}
+
+.caja {
+    min-height: 12.5em;
+    min-width: 12.5em;
+    border: 0.125em solid $color1;
+    align-content: flex-start;
+}
+
+.caja:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+    box-shadow: 0rem 0em 0.3125em 0.0625em $color1;
+}
+
+.canada {
+    grid-area: "canada";
+    background-color: coral;
+    background-image: url(../img/canada.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.francia {
+    grid-area: "francia";
+    background-image: url(../img/francia.jpg);
+    background-size: cover;
+}
+
+.italia {
+    grid-area: "italia";
+    background-image: url(../img/italia.jpg);
+    background-size: cover;
+}
+
+.eeuu {
+    grid-area: "eeuu";
+    background-image: url(../img/eeuu.jpg);
+    background-size: cover;
+}
+
+p { 
+    color: $color2;
+    font-family: $font2;
+    font-size: 50px;
+}

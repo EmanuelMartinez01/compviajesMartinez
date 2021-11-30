@@ -1,0 +1,35 @@
+
+.grid-padre2 {
+    background-color: $color1;
+    height: auto;
+    width: 80%;
+    margin: auto;
+    padding: 2%;
+    display: grid;
+    grid-column-gap: 1.25em;
+    grid-row-gap: 1.25em;
+    justify-content: center;
+    grid-template-areas:
+                 "lobby lobby2";
+}
+
+.lobby {
+    grid-area: "lobby";
+    background-color: coral;
+    background-image: url(../img/lobby.jpg);
+    background-size: cover;
+}
+
+.lobby2{
+    grid-area: "lobby2";
+    background-image: url(../img/lobby2.jpg);
+    background-size: cover;
+}
+
+
+
+.box {
+    min-height: 18.75rem;
+    min-width: 12.5rem;
+    align-content: flex-start;
+}
