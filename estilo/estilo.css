@@ -234,6 +234,7 @@ a h3 {
 .flex-colum2 a {
   text-decoration: none;
   color: #393E46;
+  font-weight: 500;
 }
 
 .flex-colum2:hover {
