@@ -19,23 +19,6 @@ h1 {
   padding-bottom: 0.625em;
 }
 
-.navbar a:hover {
-  color: var(--main-color);
-  border-bottom: 0.1rem solid var(--main-color);
-  padding-bottom: .5rem;
-}
-
-.header .icons div {
-  color: #fff;
-  cursor: pointer;
-  font-size: 2.5rem;
-  margin-left: 2rem;
-}
-
-.header .icons div:hover {
-  color: var(--main-color);
-}
-
 ul {
   list-style-type: none;
 }
@@ -62,6 +45,10 @@ video {
 
 .form-group {
   max-width: 25rem;
+}
+
+.btn-outline-dark {
+  margin-left: 2px;
 }
 
 @media only screen and (max-width: 18.75em) {
