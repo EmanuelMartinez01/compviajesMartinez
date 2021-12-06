@@ -110,6 +110,16 @@ p span {
   color: #fff;
 }
 
+button {
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 2px;
+}
+
+.espacio {
+  margin-left: 2px;
+}
+
 .quienes-Somos {
   color: #393E46;
   font-family: "Cantarell", sans-serif;
