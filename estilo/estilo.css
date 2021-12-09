@@ -14,8 +14,8 @@ body {
 }
 
 h1 {
-  color:#fff;
-  background-color:#222831;
+  color: #fff;
+  background-color: #222831;
 }
 
 ul {
@@ -42,14 +42,6 @@ video {
   text-align: center;
 }
 
-.form-group {
-  max-width: 25rem;
-}
-
-.btn-outline-dark {
-  margin-left: 2px;
-}
-
 @media only screen and (max-width: 18.75em) {
   .grid-padre {
     color: #393E46;
@@ -69,6 +61,97 @@ video {
     background-color: #EEEEEE;
     font-size: 3.75em;
   }
+}
+
+.wrapper {
+  height: 100vh;
+  background: #EEEEEE;
+  width: 100%;
+}
+
+.overlay {
+  width: 100%;
+  height: 100vh;
+  background: #EEEEEE;
+}
+
+.contactos-form {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contact-form h3,
+p {
+  color: #393E46;
+}
+
+.informacion-1 {
+  margin-top: 14px !important;
+  margin-left: 10px;
+}
+
+.informacion-1 span {
+  color: #222831;
+}
+
+.icons {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #FFD369 !important;
+  display: inline-block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.icons i {
+  font-size: 20px;
+}
+
+.formus {
+  padding: 20px;
+}
+
+.input_s input {
+  margin-bottom: 13px;
+  border: none;
+  border-bottom: 2px solid #EEEEEE;
+}
+
+.input_s input:focus {
+  margin-bottom: 13px;
+  border: none;
+  border-bottom: 2px solid #FFD369;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.input_s textarea {
+  margin-bottom: 13px;
+  border: none;
+  border-bottom: 2px solid #EEEEEE;
+  width: 100%;
+  resize: none;
+}
+
+.input_s textarea:focus {
+  margin-bottom: 13px;
+  border: none;
+  border-bottom: 2px solid #FFD369 !important;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  resize: none;
+}
+
+.form-control {
+  padding: .375rem .25rem;
 }
 
 .text-deco {
@@ -496,6 +579,4 @@ input[type="button"]:hover {
 .ingresar_link a:hover {
   text-decoration: underline;
 }
-
-
 /*# sourceMappingURL=estilo.css.map */
