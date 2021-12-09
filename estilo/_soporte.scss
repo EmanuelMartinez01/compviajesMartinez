@@ -22,3 +22,87 @@
     font-weight: lighter;
     text-decoration: underline;
 }
+
+
+.wrapper {
+    height: 100vh;
+    background: $color1;
+    width: 100%
+  }
+  
+  .overlay {
+    width: 100%;
+    height: 100vh;
+    background: $color1;
+  }
+  
+  .contactos-form {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  .contact-form h3,
+  p {
+    color: #393E46;
+  }
+  
+  .informacion-1 {
+    margin-top: 14px !important;
+    margin-left: 10px;
+  }
+  
+  .informacion-1 span {
+    color: #222831;
+  }
+  
+  .icons {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: $color5 !important;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icons i {
+    font-size: 20px;
+  }
+  
+  .formus {
+    padding: 20px;
+  }
+  
+  .input_s input {
+    margin-bottom: 13px;
+    border: none;
+    border-bottom: 2px solid $color1;
+  }
+  
+  .input_s input:focus {
+    margin-bottom: 13px;
+    border: none;
+    border-bottom: 2px solid $color5;
+    box-shadow: none;
+  }
+  
+  .input_s textarea {
+    margin-bottom: 13px;
+    border: none;
+    border-bottom: 2px solid $color1;
+    width: 100%;
+    resize: none;
+  }
+  
+  .input_s textarea:focus {
+    margin-bottom: 13px;
+    border: none;
+    border-bottom: 2px solid $color5 !important;
+    box-shadow: none;
+    resize: none;
+  }
+  
+  .form-control {
+    padding: .375rem .25rem;
+  }
