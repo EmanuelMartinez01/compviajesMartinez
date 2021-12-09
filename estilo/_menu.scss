@@ -50,6 +50,18 @@ video {
     color: $color4;
 }
 
+// iconos
+
+i {
+    color: $color3;
+    margin: 0.3125em;
+    font-size: 1.25em;
+}
+
+i:hover {
+    color: $color5;
+}
+
 // Input
 button {
     padding: 10px;

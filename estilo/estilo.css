@@ -111,6 +111,16 @@ video {
   color: #fff;
 }
 
+i {
+  color: #222831;
+  margin: 0.3125em;
+  font-size: 1.25em;
+}
+
+i:hover {
+  color: #FFD369;
+}
+
 button {
   padding: 10px;
   margin-top: 10px;
