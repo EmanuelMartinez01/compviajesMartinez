@@ -15,15 +15,20 @@ p {
 }
 
 // Ofertas
+    
+.anim-ofer{
+    transition: 0.8s all ease;
+}
+
 .anim-ofer img {
-    max-width: 18.75em;
+    max-width: 100%;
     border-radius: 0.375em;
 
 }
 
 .anim-ofer:hover {
     transform: scale(1);
-    transition: 0.8s;
+    transition: 0.8s all ease;
     box-shadow: 0rem 0em 0.3125em 0.0625em #373737;
     border-radius: 0.375em;
 }
@@ -31,6 +36,10 @@ p {
 .anim-ofer a {
     text-decoration: none;
     color: $color2;
+}
+
+video {
+    border-radius: 0.375em;
 }
 
 //informacion 
