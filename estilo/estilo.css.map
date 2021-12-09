@@ -12,8 +12,7 @@
         "_soporte.scss",
         "_redes.scss",
         "_blog.scss",
-        "_login.scss",
-        "_contacto.scss"
+        "_login.scss"
     ],
     "names": [],
     "file": "estilo.css"
