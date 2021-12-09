@@ -25,11 +25,9 @@ body {
 }
 
 h1 {
-    color: $color1;
-    background-color: $color3;
-    padding-bottom: 0.625em;
-}
-
+    color:#fff;
+    background-color:#222831;
+  }
 
 ul {
     list-style-type: none;
@@ -52,14 +50,6 @@ video {
     text-align: center;
 }
 
-//Contacto
-.form-group {
-    max-width: 25rem;
-}
-
-.btn-outline-dark {
-    margin-left: 2px;
-}
 
 
 //Media
@@ -98,4 +88,5 @@ video {
 @import "_redes";
 @import "_blog";
 @import "_login";
+@import "_contacto"
 
