@@ -99,7 +99,6 @@ p {
   height: 50px;
   border-radius: 50%;
   background-color: #FFD369 !important;
-  display: inline-block;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
