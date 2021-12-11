@@ -7,9 +7,10 @@
 // Paleta colores 
     $color1: #EEEEEE;
     $color2: #393E46;
-    $color3: #222831;
+    $color3: #161E54;
     $color4: #fff;
-    $color5: #FFD369;
+    $color5: #FF5151;
+    $color6: #88E0EF;
 
 // Textos
     $font: 'Cantarell', sans-serif;
@@ -25,17 +26,29 @@ body {
     color: $color2;
 }
 
-h1 {
-    color:$color4;
-    background-color:$color3;
-    margin-bottom: auto;
+.header {
+    object-fit: cover;
+    width: 180px;
+    height: 43px;
+}
+
+.navbar {
+    background-color: $color3;
+    font-family: $font3;
+}
+a {
+    color: $color1;
+    font-size: 14px;
+}
+a:hover{
+    color: $color5;
 }
 
 ul {
     list-style-type: none;
 }
 
-img {
+.img {
     width: 18.75em;
     height: 25rem;
 }

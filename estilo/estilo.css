@@ -13,17 +13,32 @@ body {
   color: #393E46;
 }
 
-h1 {
-  color: #fff;
-  background-color: #222831;
-  margin-bottom: auto;
+.header {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 180px;
+  height: 43px;
+}
+
+.navbar {
+  background-color: #161E54;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  color: #EEEEEE;
+  font-size: 14px;
+}
+
+a:hover {
+  color: #FF5151;
 }
 
 ul {
   list-style-type: none;
 }
 
-img {
+.img {
   width: 18.75em;
   height: 25rem;
 }
@@ -74,7 +89,7 @@ p {
 }
 
 p span {
-  color: #222831;
+  color: #fff;
 }
 
 .anim-ofer {
@@ -113,13 +128,13 @@ video {
 }
 
 i {
-  color: #222831;
+  color: #161E54;
   margin: 0.3125em;
   font-size: 1.25em;
 }
 
 i:hover {
-  color: #FFD369;
+  color: #FF5151;
 }
 
 button {
@@ -142,7 +157,7 @@ button {
 }
 
 footer {
-  background-color: #222831;
+  background-color: #161E54;
 }
 
 .carousel-inner img {
@@ -152,7 +167,7 @@ footer {
 
 .check {
   display: inline-block;
-  border: 0.0625em solid #222831;
+  border: 0.0625em solid #161E54;
   border-radius: 0.5em;
   padding: 0.9375em;
   margin: 1.875em;
@@ -216,7 +231,7 @@ footer {
 
 a h3 {
   text-align: center;
-  color: #222831;
+  color: #161E54;
 }
 
 .flex-padre2 {
@@ -268,7 +283,7 @@ a h3 {
 }
 
 .flex-colum2:hover a {
-  color: #FFD369;
+  color: #FF5151;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
@@ -283,7 +298,7 @@ a h3 {
 }
 
 .sup__lis--funt strong {
-  color: #FFD369;
+  color: #FF5151;
   font-weight: bold;
 }
 
@@ -294,12 +309,12 @@ a h3 {
 
 .card1 {
   border: none;
-  background: #222831;
+  background: #161E54;
 }
 
 .card {
   border: none;
-  background: #FFD369;
+  background: #FF5151;
 }
 
 .search {
@@ -313,7 +328,7 @@ a h3 {
 }
 
 .search-input {
-  color: #222831;
+  color: #161E54;
   border: 0;
   outline: 0;
   background: none;
@@ -330,7 +345,7 @@ a h3 {
   width: 100%;
   font-size: 19px;
   font-weight: 300;
-  color: #222831;
+  color: #161E54;
   -webkit-transition: width 0.4s linear;
   transition: width 0.4s linear;
 }
@@ -348,8 +363,8 @@ a h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #222831;
-  background-color: #FFD369;
+  color: #161E54;
+  background-color: #FF5151;
   font-size: 10px;
   bottom: 30px;
   position: relative;
@@ -373,7 +388,15 @@ a:link {
 }
 
 .redes-sociales i:hover {
-  color: #FFD369;
+  color: #FF5151;
+}
+
+.nav_i--color i {
+  color: #88E0EF;
+}
+
+.nav_i--color i:hover {
+  color: #FF5151;
 }
 
 img {
@@ -445,6 +468,10 @@ h5 {
   background-size: cover;
 }
 
+h1 h2 {
+  font-family: "Roboto", sans-serif;
+}
+
 .center {
   position: absolute;
   top: 35%;
@@ -472,7 +499,7 @@ h5 {
 
 form .text_field {
   position: relative;
-  border-bottom: 2px solid #EEEEEE;
+  border-bottom: 2px solid #88E0EF;
   margin: 30px 0;
 }
 
@@ -490,7 +517,7 @@ form .text_field {
   position: absolute;
   top: 50%;
   left: 5px;
-  color: #222831;
+  color: #161E54;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   font-size: 16px;
@@ -506,7 +533,7 @@ form .text_field {
   left: 0%;
   width: 0%;
   height: 2px;
-  background: #222831;
+  background: #FF5151;
   -webkit-transition: .5s;
   transition: .5s;
 }
@@ -536,7 +563,7 @@ input[type="button"] {
   width: 100%;
   height: 50px;
   border: 1px solid;
-  background: #222831;
+  background: #FF5151;
   border-radius: 25px;
   font-size: 18px;
   color: #EEEEEE;
@@ -546,7 +573,7 @@ input[type="button"] {
 }
 
 input[type="button"]:hover {
-  border-color: #FFD369;
+  border-color: #FF5151;
   -webkit-transition: .5s;
   transition: .5s;
 }
@@ -595,14 +622,14 @@ p {
 }
 
 .informacion-1 span {
-  color: #222831;
+  color: #161E54;
 }
 
 .icons {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: #FFD369 !important;
+  background-color: #FF5151 !important;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -631,7 +658,7 @@ p {
 .input_s input:focus {
   margin-bottom: 13px;
   border: none;
-  border-bottom: 2px solid #FFD369;
+  border-bottom: 2px solid #FF5151;
   -webkit-box-shadow: none;
           box-shadow: none;
 }
@@ -647,7 +674,7 @@ p {
 .input_s textarea:focus {
   margin-bottom: 13px;
   border: none;
-  border-bottom: 2px solid #FFD369 !important;
+  border-bottom: 2px solid #FF5151 !important;
   -webkit-box-shadow: none;
           box-shadow: none;
   resize: none;
