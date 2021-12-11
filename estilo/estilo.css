@@ -38,11 +38,6 @@ ul {
   list-style-type: none;
 }
 
-.img {
-  width: 18.75em;
-  height: 25rem;
-}
-
 video {
   width: 100%;
   height: 400px !important;
@@ -100,6 +95,7 @@ p span {
 .anim-ofer img {
   max-width: 100%;
   border-radius: 0.375em;
+  height: 25rem;
 }
 
 .anim-ofer:hover {
@@ -163,6 +159,8 @@ footer {
 .carousel-inner img {
   background-position: center;
   background-size: cover;
+  width: 18.75em;
+  height: 25rem;
 }
 
 .check {
@@ -219,8 +217,9 @@ footer {
 }
 
 .imge {
-  width: 100%;
   border-radius: 20px;
+  width: 100%;
+  height: 25rem;
 }
 
 .boxs {
@@ -266,6 +265,8 @@ a h3 {
 
 .flex-colum2 img {
   background-size: cover;
+  width: 18.75em;
+  height: 25rem;
 }
 
 .flex-colum2 a {
@@ -682,5 +683,115 @@ p {
 
 .form-control {
   padding: .375rem .25rem;
+}
+
+.container {
+  height: 100vh;
+}
+
+.card-2 {
+  border: none;
+  background: #161E54;
+}
+
+.form-control {
+  border-bottom: 2px solid #EEEEEE !important;
+  border: none;
+  font-weight: 500;
+}
+
+.form-control:focus {
+  color: #393E46;
+  background-color: #fff;
+  border-color: #88E0EF;
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 0px;
+  border-bottom: 2px solid #FF5151 !important;
+}
+
+.inputbox {
+  position: relative;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.inputbox span {
+  position: absolute;
+  top: 12px;
+  left: 11px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.inputbox i {
+  position: relative;
+  top: 10px;
+  right: 4px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  color: #88E0EF;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.inputbox input:focus ~ span {
+  -webkit-transform: translateX(0px) translateY(-15px);
+          transform: translateX(0px) translateY(-15px);
+  font-size: 12px;
+}
+
+.inputbox input:valid ~ span {
+  -webkit-transform: translateX(0px) translateY(-15px);
+          transform: translateX(0px) translateY(-15px);
+  font-size: 12px;
+}
+
+.card-blue {
+  background-color: #161E54;
+}
+
+.hightlight {
+  background-color: #FF5151;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.cyan {
+  color: #88E0EF;
+}
+
+.decoration {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #FF5151;
+  border-color: #FF5151;
+  margin-top: 2px;
+}
+
+.btn-success:hover {
+  color: #fff;
+  background-color: #FF5151;
+  border-color: #FF5151;
+}
+
+.decoration:hover {
+  text-decoration: none;
+  color: #FF5151;
+}
+
+.text-uppercase {
+  color: #EEEEEE;
 }
 /*# sourceMappingURL=estilo.css.map */
