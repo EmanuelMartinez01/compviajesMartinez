@@ -2,9 +2,8 @@
 .carousel-inner img {
 
     background-position: center;
-    background-size: cover;
-    width: 18.75em;
     height: 25rem;
+    object-fit: cover;
 }
 
 .check{
@@ -15,3 +14,4 @@
     margin: 1.875em;
     text-align: justify;
 }
+

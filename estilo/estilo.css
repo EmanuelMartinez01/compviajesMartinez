@@ -138,13 +138,27 @@ i:hover {
 }
 
 button {
-  padding: 10px;
-  margin-top: 33px;
-  margin-left: 2px;
+  margin-top: 43px;
+  padding: 30px;
 }
 
 .espacio {
-  margin-left: 2px;
+  display: inline-block;
+  background-color: #161E54;
+  color: #EEEEEE;
+  border: 1px solid #161E54;
+  border-radius: 8px;
+  margin: 0px 60px;
+  padding: 5px;
+  padding-left: 10px;
+  -webkit-box-shadow: 0rem 0em 0.3125em 0.0625em #393E46;
+          box-shadow: 0rem 0em 0.3125em 0.0625em #393E46;
+  font-family: "Roboto", sans-serif;
+}
+
+label {
+  margin-top: 10px;
+  margin-right: 10px;
 }
 
 .quienes-Somos {
@@ -163,9 +177,9 @@ footer {
 
 .carousel-inner img {
   background-position: center;
-  background-size: cover;
-  width: 18.75em;
   height: 25rem;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .check {

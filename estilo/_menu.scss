@@ -67,13 +67,27 @@ i:hover {
 
 // Input
 button {
-    padding: 10px;
-    margin-top: 33px;
-    margin-left: 2px;
+    margin-top: 43px;
+    padding: 30px;
 }
 .espacio {
-    margin-left: 2px;
+    display: inline-block;
+    background-color: $color3;
+    color: $color1;
+    border: 1px solid $color3;
+    border-radius: 8px;
+    margin: 0px 60px;
+    padding: 5px;
+    padding-left: 10px;
+    box-shadow: 0rem 0em 0.3125em 0.0625em $color2;
+    font-family: $font3;
 }
+
+label {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
 //Condicionales 
 
 $color: #393E46;
