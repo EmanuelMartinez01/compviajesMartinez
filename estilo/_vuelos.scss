@@ -10,8 +10,21 @@
     display: inline-block;
     border: 0.0625em solid $color3;
     border-radius: 0.5em;
+    box-shadow: 0rem 0em 0.3125em 0.0625em $color2;
+    background-color: $color3;
+    color: $color1;
     padding: 0.9375em;
     margin: 1.875em;
     text-align: justify;
 }
 
+.btn-outline-dark {
+    border: none;
+    background-color: $color5;
+    color: $color1;
+}
+
+.btn-outline-dark:hover {
+    color: $color5;
+    background-color: $color1;
+}
