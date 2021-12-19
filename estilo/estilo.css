@@ -3,7 +3,6 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  outline: 2px solid red;
 }
 
 body {
@@ -163,16 +162,10 @@ i:hover {
 }
 
 .espacio {
-  display: inline-block;
   background-color: #161E54;
   color: #EEEEEE;
-  border: 1px solid #161E54;
+  border: 1px solid #88E0EF;
   border-radius: 8px;
-  height: 250px;
-  width: 900px;
-  margin: 10px 180px;
-  padding: 5px;
-  padding-left: 10px;
   -webkit-box-shadow: 0rem 0em 0.3125em 0.0625em #393E46;
           box-shadow: 0rem 0em 0.3125em 0.0625em #393E46;
   font-family: "Roboto", sans-serif;
