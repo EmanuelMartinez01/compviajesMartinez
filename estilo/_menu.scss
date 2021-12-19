@@ -129,3 +129,18 @@ $color: white;
 }
 
 
+/* form search*/
+.form-search{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-search-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.form-search-input-text {
+    display: flex;
+    flex-direction: column;
+}
