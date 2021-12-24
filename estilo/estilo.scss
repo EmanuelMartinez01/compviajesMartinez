@@ -37,13 +37,25 @@ body {
     background-color: $color3;
     font-family: $font3;
 }
-a {
-    color: $color1;
+
+a, a:hover, a:focus, a:visited{
+    text-decoration: none;
+    color:unset;
+}
+
+ nav a {
+    color: $color1 !important;
     font-size: 14px;
 }
-a:hover{
-    color: $color5;
+
+.dropdown-menu  a {
+    color: $color3 !important;
 }
+
+a:hover , .dropdown-menu a:hover{
+    color: $color5 !important;
+}
+
 .nav-item {
     margin-right: 10px;
 }

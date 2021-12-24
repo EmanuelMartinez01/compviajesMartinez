@@ -33,7 +33,7 @@
     </a>
     <a class="navbar-brand" href="#"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
     </button>
           
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -63,7 +63,7 @@
     </li>
         
     <li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ayuda</a>
+    <a class="nav-link dropdown-toggle t-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ayuda</a>
     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
     <a class="dropdown-item" href="pages/contacto.html">Contactanos</a>
     <div class="dropdown-divider"></div>
@@ -131,43 +131,46 @@
     </div>
   
     </section>
+
+
        
     <!--new form  -->
-    <form class="form-search" action="">
-        <div>
-           <input type="radio">
-           <input type="radio">
+<section class="container mt-3">
+  <form class="form-search" action="">
+      <div class="input-radio-container">
+        <input type="radio" id="radio-1" name="click">
+        <label for="radio-1">Solo ida</label>
+        <input  class="ml-1"type="radio" id="radio-2" name="click">
+        <label for="radio-2">Ida y vuelta</label>
+    </div>
+      <div class="input-search-container">           
+          <div class="form-search-input-text">
+              <label for="">Region</label>
+              <input type="text" placeholder="Region">
+          </div>
+          <div class="form-search-input-text">
+              <label for="">Destino</label>
+              <input type="text" placeholder="Destino">
+          </div>
+          <div class="form-search-input-text">
+              <label for="">Cantidad de Pasajeros</label>
+              <input type="text">
+          </div>
+          <div class="form-search-input-text">
+              <label for="">Calendario</label>
+              <input class="" type="date">
+          </div>
+          <input type="submit" class="boton">
         </div>
-        <div class="input-search-container">
-            <div class="form-search-input-text mr-3">
-                <label for="">asd</label>
-                <input type="text">
-            </div>
-            <div class="form-search-input-text mr-3">
-                <label for="">asd</label>
-                <input type="text">
-            </div>
-            <div class="form-search-input-text mr-3">
-                <label for="">asd</label>
-                <input type="text">
-            </div>
-            <div class="form-search-input-text">
-                <label for="">asd</label>
-                <input type="text">
-            </div>
-            <input type="submit">
-         </div>
 
 
 
 
-    </form>
-  
-    <!-- /new form -->
+  </form>
 
-
+</section>
     
-    </section>
+ 
 
     <!---Linea horizontal--->
     <hr>   

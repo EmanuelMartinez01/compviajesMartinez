@@ -41,7 +41,7 @@ p {
     color: $color2;
 }
 
-video {
+.video {
     border-radius: 0.375em;
 }
 
@@ -55,13 +55,14 @@ video {
 
 // iconos
 
-i {
-    color: $color3;
+nav i
+ {
+    color: $color1;
     margin: 0.3125em;
     font-size: 1.25em;
 }
 
-i:hover {
+nav i:hover {
     color: $color5;
 }
 
@@ -133,14 +134,77 @@ $color: white;
 .form-search{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
+    color: $color1;
+    background: $color3;
+    padding: 8px;
+    border-radius: 4px;
+}
+.form-search label {
+    margin-left: 4px;
 }
 
 .input-search-container{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:flex-end;
 }
 
 .form-search-input-text {
     display: flex;
     flex-direction: column;
+    margin-right: 8px;
+}
+
+.boton { 
+    text-decoration: none;
+    background-color: $color5;
+    color: $color1;
+    border: none;
+    border-radius: 8px;
+    padding: 0px 32px;
+    height: 31px;
+    margin-left: 8px;
+}
+
+.input-radio-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.input-radio-container:nth-child(3) {
+    color: blue;
+}
+
+input[type="date"] {
+    width: 185px;
+    height: 28px;
+}
+
+@media only screen and (max-width: 600px) {
+    .input-search-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items:flex-start;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .input-search-container{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .boton { 
+        margin-left: 0px;
+        margin-top: 16px;
+    }
 }

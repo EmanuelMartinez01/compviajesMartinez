@@ -26,13 +26,22 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-a {
-  color: #EEEEEE;
+a, a:hover, a:focus, a:visited {
+  text-decoration: none;
+  color: unset;
+}
+
+nav a {
+  color: #EEEEEE !important;
   font-size: 14px;
 }
 
-a:hover {
-  color: #FF5151;
+.dropdown-menu a {
+  color: #161E54 !important;
+}
+
+a:hover, .dropdown-menu a:hover {
+  color: #FF5151 !important;
 }
 
 .nav-item {
@@ -122,7 +131,7 @@ p span {
   color: #393E46;
 }
 
-video {
+.video {
   border-radius: 0.375em;
 }
 
@@ -132,13 +141,13 @@ video {
   color: #fff;
 }
 
-i {
-  color: #161E54;
+nav i {
+  color: #EEEEEE;
   margin: 0.3125em;
   font-size: 1.25em;
 }
 
-i:hover {
+nav i:hover {
   color: #FF5151;
 }
 
@@ -194,6 +203,16 @@ label {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: #EEEEEE;
+  background: #161E54;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.form-search label {
+  margin-left: 4px;
 }
 
 .input-search-container {
@@ -204,6 +223,14 @@ label {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .form-search-input-text {
@@ -214,6 +241,87 @@ label {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  margin-right: 8px;
+}
+
+.boton {
+  text-decoration: none;
+  background-color: #FF5151;
+  color: #EEEEEE;
+  border: none;
+  border-radius: 8px;
+  padding: 0px 32px;
+  height: 31px;
+  margin-left: 8px;
+}
+
+.input-radio-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.input-radio-container:nth-child(3) {
+  color: blue;
+}
+
+input[type="date"] {
+  width: 185px;
+  height: 28px;
+}
+
+@media only screen and (max-width: 600px) {
+  .input-search-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .input-search-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .boton {
+    margin-left: 0px;
+    margin-top: 16px;
+  }
 }
 
 footer {
@@ -484,7 +592,7 @@ a:link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 1040px;
+  max-width: 1040px;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
@@ -762,7 +870,6 @@ input[type="button"]:hover {
 }
 
 .overlay {
-  width: 100%;
   height: 100vh;
   background: #EEEEEE;
 }
@@ -787,8 +894,8 @@ p {
 }
 
 .icons {
-  width: 50px;
-  height: 50px;
+  width: 50px !important;
+  height: 50px !important;
   border-radius: 50%;
   background-color: #FF5151 !important;
   display: -webkit-box;
@@ -804,6 +911,7 @@ p {
 
 .icons i {
   font-size: 20px;
+  color: #EEEEEE;
 }
 
 .formus {
