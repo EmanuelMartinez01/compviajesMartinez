@@ -343,6 +343,13 @@ input[type="date"] {
   }
 }
 
+@media only screen and (max-width: 350px) {
+  .card {
+    border: none;
+    background: #FF5151;
+  }
+}
+
 footer {
   background-color: #161E54;
   width: 100%;
@@ -533,7 +540,7 @@ a h3 {
   transition: width 0.4s linear;
 }
 
-.search .search-input {
+.search > .search-input {
   padding: 0 10px;
   width: 100%;
   font-size: 19px;

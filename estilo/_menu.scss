@@ -193,7 +193,6 @@ input[type="date"] {
         align-items: center;
         justify-content: center;
 
-    
     }
 }
 
@@ -220,4 +219,10 @@ input[type="date"] {
         margin-top: 16px;
     }
     
+}
+@media only screen and (max-width:350px) {
+    .card {
+        border: none;
+        background: $color5
+    }
 }
