@@ -280,21 +280,23 @@ input[type="date"] {
   height: 28px;
 }
 
-@media only screen and (max-width: 576px) {
-  .grid-padre2 {
-    background-color: #EEEEEE;
-    height: auto;
-    width: 80%;
-    margin: auto;
-    padding: 2%;
-    display: -ms-grid;
-    display: grid;
-    grid-column-gap: 1.25em;
-    grid-row-gap: 1.25em;
+@media (min-width: 576px) {
+  .galeria {
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-        grid-template-areas: "lobby lobby2";
+    outline: 3px solid red;
   }
 }
 
@@ -378,39 +380,25 @@ footer {
   background-color: #EEEEEE;
 }
 
-.grid-padre2 {
-  background-color: #EEEEEE;
-  height: auto;
-  width: 80%;
-  margin: auto;
-  padding: 2%;
-  display: -ms-grid;
-  display: grid;
-  grid-column-gap: 1.25em;
-  grid-row-gap: 1.25em;
+.galeria {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-      grid-template-areas: "lobby lobby2";
+  overflow: hidden;
 }
 
-.lobby {
-  grid-area: "lobby";
-  background-image: url(../img/lobby.jpg);
-  background-size: cover;
-}
-
-.lobby2 {
-  grid-area: "lobby2";
-  background-image: url(../img/lobby2.jpg);
-  background-size: cover;
-}
-
-.box {
-  min-height: 18.75rem;
-  min-width: 12.5rem;
-  -ms-flex-line-pack: start;
-      align-content: flex-start;
+.galeria > img {
+  max-width: 100%;
 }
 
 .grid-container {

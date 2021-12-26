@@ -1,35 +1,12 @@
-
-.grid-padre2 {
-    background-color: $color1;
-    height: auto;
-    width: 80%;
-    margin: auto;
-    padding: 2%;
-    display: grid;
-    grid-column-gap: 1.25em;
-    grid-row-gap: 1.25em;
+.galeria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    grid-template-areas:
-                 "lobby lobby2";
+    overflow: hidden;
+
 }
 
-.lobby {
-    grid-area: "lobby";
-    background-image: url(../img/lobby.jpg);
-    background-size: cover;
+.galeria > img {
+    max-width: 100%;
 }
-
-.lobby2{
-    grid-area: "lobby2";
-    background-image: url(../img/lobby2.jpg);
-    background-size: cover;
-}
-
-
-
-.box {
-    min-height: 18.75rem;
-    min-width: 12.5rem;
-    align-content: flex-start;
-}
-
