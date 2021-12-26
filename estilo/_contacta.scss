@@ -1,12 +1,10 @@
 .wrapper {
-    height: 100vh;
+    height: auto;
     background: $color1;
     width: 100%
   }
   
   .overlay {
-   
-    height: 100vh;
     background: $color1;
   }
   
@@ -79,4 +77,34 @@
   
   .form-control {
     padding: .375rem .25rem;
+  }
+
+
+  @media only screen and (max-width: 1200px) {
+    .formus {
+      padding: 20px;
+    }
+  }
+
+
+  @media only screen and (max-width: 900px) {
+    .formus {
+      padding: 20px;
+    }
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .formus {
+      padding: 20px;
+    }
+  }
+
+
+  
+  @media only screen and (max-width: 300px) {
+    .formus {
+      padding: 20px;
+    }
+    
   }

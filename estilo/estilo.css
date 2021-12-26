@@ -280,6 +280,24 @@ input[type="date"] {
   height: 28px;
 }
 
+@media only screen and (max-width: 576px) {
+  .grid-padre2 {
+    background-color: #EEEEEE;
+    height: auto;
+    width: 80%;
+    margin: auto;
+    padding: 2%;
+    display: -ms-grid;
+    display: grid;
+    grid-column-gap: 1.25em;
+    grid-row-gap: 1.25em;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+        grid-template-areas: "lobby lobby2";
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .input-search-container {
     display: -webkit-box;
@@ -378,7 +396,6 @@ footer {
 
 .lobby {
   grid-area: "lobby";
-  background-color: coral;
   background-image: url(../img/lobby.jpg);
   background-size: cover;
 }
@@ -864,13 +881,12 @@ input[type="button"]:hover {
 }
 
 .wrapper {
-  height: 100vh;
+  height: auto;
   background: #EEEEEE;
   width: 100%;
 }
 
 .overlay {
-  height: 100vh;
   background: #EEEEEE;
 }
 
@@ -951,6 +967,30 @@ p {
 
 .form-control {
   padding: .375rem .25rem;
+}
+
+@media only screen and (max-width: 1200px) {
+  .formus {
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .formus {
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .formus {
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .formus {
+    padding: 20px;
+  }
 }
 
 .card-2 {

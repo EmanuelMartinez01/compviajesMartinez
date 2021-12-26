@@ -185,6 +185,22 @@ input[type="date"] {
     height: 28px;
 }
 
+@media only screen and (max-width: 576px) {
+    .grid-padre2 {
+        background-color: $color1;
+        height: auto;
+        width: 80%;
+        margin: auto;
+        padding: 2%;
+        display: grid;
+        grid-column-gap: 1.25em;
+        grid-row-gap: 1.25em;
+        justify-content: center;
+        grid-template-areas:
+                     "lobby lobby2";
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .input-search-container{
         display: flex;
@@ -207,4 +223,5 @@ input[type="date"] {
         margin-left: 0px;
         margin-top: 16px;
     }
+    
 }
