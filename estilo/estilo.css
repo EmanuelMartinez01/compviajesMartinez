@@ -423,11 +423,13 @@ footer {
 
 .boxs {
   padding: 10px;
-  background-size: cover;
-  background-attachment: fixed;
+  background-size: contain;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-a h3 {
+a > h3 {
+  font-weight: bold;
   text-align: center;
   color: #161E54;
 }
