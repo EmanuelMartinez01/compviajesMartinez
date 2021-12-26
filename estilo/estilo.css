@@ -296,7 +296,6 @@ input[type="date"] {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    outline: 3px solid red;
   }
 }
 
