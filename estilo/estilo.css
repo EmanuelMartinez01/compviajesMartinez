@@ -172,7 +172,7 @@ p {
 }
 
 p span {
-  color: #fff;
+  color: #161E54;
 }
 
 .anim-ofer {
@@ -278,7 +278,7 @@ label {
   color: #EEEEEE;
   background: #161E54;
   padding: 8px;
-  border-radius: 4px;
+  border-radius: 6px;
 }
 
 .form-search label {
@@ -753,6 +753,17 @@ h5 {
   font-weight: bold;
 }
 
+/* .recuadro {
+  color: $color1;
+  background-color: $color1;
+  border: 2px solid $color1;
+  border-radius: 12px;
+  margin-left: 8px;
+  margin-right: 8px;
+  box-shadow: 0 0.625em 0.625em rgba(0, 0, 0, 0.2);
+}
+
+ */
 .fondo_login {
   background-image: url(../img/carousel3.jpg);
   background-size: cover;
