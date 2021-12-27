@@ -12,13 +12,13 @@
 
 .flex-colum2 {
     margin: 1.25em;
-    border-radius: 20%;
+    border-radius: 12px;
     overflow: hidden;
     transition: all 0.25s;
     align-items: center;
     text-align: center;
     margin-bottom: 6.25em;
-    box-shadow: 0 0.625em 0.625em rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0.625em 0.625em rgba(0, 0, 0, 0.2);
     img {
         background-size: cover;
         width: 18.75em;
