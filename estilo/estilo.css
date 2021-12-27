@@ -350,6 +350,16 @@ input[type="date"] {
   height: 28px;
 }
 
+.carousel-control-prev {
+  margin-top: 60px;
+  margin-bottom: 160px;
+}
+
+.carousel-control-next {
+  margin-top: 60px;
+  margin-bottom: 160px;
+}
+
 footer {
   background-color: #161E54;
   width: 100%;
