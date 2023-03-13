@@ -1,30 +1,36 @@
+// .carousel-inner .carouselImg {
+//   background-position: center;
+//   height: 25rem;
+//   object-fit: cover;
+//   margin-top: 1.6rem;
+// }
 
-.carousel-inner img {
-
-    background-position: center;
-    height: 25rem;
-    object-fit: cover;
-}
-
-.check{
-    display: inline-block;
-    border: 0.0625em solid $color3;
-    border-radius: 0.5em;
-    box-shadow: 0rem 0em 0.3125em 0.0625em $color2;
-    background-color: $color3;
-    color: $color1;
-    padding: 0.9375em;
-    margin: 1.875em;
-    text-align: justify;
+.check {
+  display: inline-block;
+  border: 0.0625em solid var(--color3);
+  border-radius: 0.5em;
+  box-shadow: 0rem 0em 0.3125em 0.0625em var(--color2);
+  background-color: var(--color3);
+  color: var(--color1);
+  padding: 0.9375em;
+  margin: 1.875em;
+  text-align: justify;
 }
 
 .btn-outline-dark {
-    border: none;
-    background-color: $color5;
-    color: $color1;
+  border: none;
+  background-color: var(--color5);
+  color: var(--color1);
 }
 
 .btn-outline-dark:hover {
-    color: $color5;
-    background-color: $color1;
+  color: var(--color5);
+  background-color: var(--color1);
+}
+
+.footerVuelos {
+  background-color: var(--color3);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }

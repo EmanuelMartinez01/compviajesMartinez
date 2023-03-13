@@ -1,27 +1,27 @@
 .redes-sociales {
-    margin: 1.5625em;
-    text-align: center;
-    color: $color4;
+  margin: 1.5625em;
+  text-align: center;
+  color: var(--color4);
 }
 
 .redes-sociales {
-    i {
-    color: $color4;
+  i {
+    color: var(--color4);
     margin: 0.3125em;
     font-size: 1.25em;
-    }
+  }
 }
 
 .redes-sociales i:hover {
-    color: $color5;
+  color: var(--color5);
 }
 
 .nav_i--color {
-    i{
-        color: $color6;
-    }
+  i {
+    color: var(--color6);
+  }
 }
 
 .nav_i--color i:hover {
-    color: $color5;
+  color: var(--color5);
 }

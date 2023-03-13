@@ -1,163 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-// Paleta colores 
-    $color1: #EEEEEE;
-    $color2: #393E46;
-    $color3: #161E54;
-    $color4: #fff;
-    $color5: #FF5151;
-    $color6: #88E0EF;
-    $color7: #FF9B6A;
 
-// Textos
-    $font: 'Cantarell', sans-serif;
-    $font2: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    $font3: 'Roboto', sans-serif;
+:root {
+  /* FONT AND TYPOGRAPHY */
+  --body-font: "Poppins", sans-serif;
 
+  --color1: #eeeeee;
+  --color2: #393e46;
+  --color3: #161e54;
+  --color4: #fff;
+  --color5: #ff5151;
+  --color6: #88e0ef;
+  --color7: #ff9b6a;
+}
 
 body {
-    background: $color1;
-    letter-spacing: 0.03em;
-    line-height: 1.6;
-    font-family: $font3;
-    color: $color2;
+  background: var(--color1);
+  min-height: 100%;
+  position: relative;
+  padding-bottom: 25em;
+  letter-spacing: 0.03em;
+  line-height: 1.6;
+  font-family: var(--body-font) !important;
+  color: var(--color2);
 }
 
 .header {
-    object-fit: cover;
-    width: 180px;
-    height: 43px;
-    margin-right: 15px;
+  object-fit: cover;
+  width: 180px;
+  height: 43px;
+  margin-right: 15px;
 }
 
 .navbar {
-    background-color: $color3;
-    font-family: $font3;
+  background-color: var(--color3);
 }
 
-a, a:hover, a:focus, a:visited{
-    text-decoration: none;
-    color:unset;
+a,
+a:hover,
+a:focus,
+a:visited {
+  text-decoration: none;
+  color: unset;
 }
 
- nav a {
-    color: $color1 !important;
-    font-size: 14px;
+nav a {
+  color: var(--color1) !important;
+  font-size: 14px;
 }
 
-.dropdown-menu  a {
-    color: $color3 !important;
+.dropdown-menu a {
+  color: var(--color3) !important;
 }
 
-a:hover , .dropdown-menu a:hover{
-    color: $color5 !important;
+a:hover,
+.dropdown-menu a:hover {
+  color: var(--color5) !important;
 }
 
 .nav-item {
-    margin-right: 10px;
+  margin-right: 10px;
 }
-
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
-
 video {
-    width: 100%;
-    height: 400px !important;
-    object-fit: cover;
+  width: 100%;
+  height: 400px !important;
+  object-fit: cover;
 }
 
 .text-deco1 {
-    font-weight: bold;
-    text-align: center;
+  font-weight: bold;
+  text-align: center;
 }
 
+// footer
+
+footer {
+  background-color: var(--color3);
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
 
 //Media
 @media only screen and (max-width: 18.75em) {
-    .grid-padre { 
-        color: $color2;
-        background-color: crimson;
-        font-size: 3.125em;
-    }
+  .grid-padre {
+    color: var(--color2);
+    background-color: crimson;
+    font-size: 3.125em;
+  }
 }
 
 @media only screen and (min-width: 36em) {
-    .grid-padre {
-        background-color: chocolate;
-    }
+  .grid-padre {
+    background-color: chocolate;
+  }
 }
 
 @media only screen and (min-width: 75em) {
-    .grid-padre {
-        background-color: $color1;
-        font-size: 3.75em;
-    }
+  .grid-padre {
+    background-color: var(--color1);
+    font-size: 3.75em;
+  }
 }
 
-
-@media (min-width:576px) {
-    .galeria {
-        max-width: 100%;
-        display: flex;
-        flex-direction: row !important;
-        align-items: center;
-        justify-content: center;
-
-    }
+@media (min-width: 576px) {
+  .galeria {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-    .input-search-container{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items:flex-start;
-    }
+  .input-search-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+  }
 }
 
 @media only screen and (max-width: 991px) {
-    .input-search-container{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-    }
-    .boton { 
-        margin-left: 0px;
-        margin-top: 16px;
-    }
-    
+  .input-search-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .boton {
+    margin-left: 0px;
+    margin-top: 16px;
+  }
 }
-@media only screen and (max-width:350px) {
-    .card {
-        border: none;
-        background: $color5
-    }
+@media only screen and (max-width: 350px) {
+  .card {
+    border: none;
+    background: var(--color5);
+  }
 }
-
-
-
-
-
 
 @import "_menu";
-@import "_footer";
 @import "_vuelos";
 @import "_exclusivo";
-@import "_ofertas";
 @import "_destinos";
 @import "_soporte";
 @import "_redes";
-@import "_blog";
-@import "_login";
 @import "_contacta";
 @import "_metodospago";
-

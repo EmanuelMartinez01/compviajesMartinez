@@ -1,41 +1,64 @@
-
-.flex-padre2 {
-    width: 70%;
-    max-width: 75em;
-    display: flex;
-    justify-content:space-evenly;
-    flex-wrap: wrap;
-    margin: auto;
-    background-color: $color1;
- 
+.cta-background {
+  background-size: cover;
+  background-position: center center;
+  bottom: 0;
+  filter: blur(50px);
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: -1;
 }
 
-.flex-colum2 {
-    margin: 1.25em;
-    border-radius: 12px;
-    overflow: hidden;
-    transition: all 0.25s;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 6.25em;
-    box-shadow: 0 0.625em 0.625em rgba(0, 0, 0, 0.2);
-    img {
-        background-size: cover;
-        width: 18.75em;
-        height: 25rem;
-    }
-    a {
-        text-decoration: none;
-        color: $color2;
-    }
+.container {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 3rem;
 }
 
-.flex-colum2:hover {
-    transform: scale(1);
-    transition: 0.8s;
-    box-shadow: 0rem 0em 0.3125em 0.0625em $color2;
-    a {
-        color: $color5;
-        font-family: $font2;
-    }
+.cta {
+  background: #333;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.2);
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+  width: 300px;
+  margin-top: 1rem;
+}
+.cta:hover .cardImg {
+  filter: brightness(70%);
+}
+.cta:hover .text {
+  bottom: 0;
+}
+.cta .cardImg {
+  bottom: 0;
+  filter: brightness(100%);
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: 0.5s ease-in-out;
+  width: 115%;
+}
+.cta .text {
+  bottom: -40%;
+  padding: 15px;
+  position: absolute;
+  transition: 0.5s ease-in-out;
+}
+.cta .text .cardTitle {
+  color: #fff;
+  display: inline-block;
+  font-weight: 300;
+  margin-bottom: 5px;
+  position: relative;
+}
+.cta .text .cartLink {
+  color: #fff;
+  font-weight: 300;
 }

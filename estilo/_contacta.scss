@@ -1,110 +1,104 @@
 .wrapper {
-    height: auto;
-    background: $color1;
-    width: 100%
-  }
-  
-  .overlay {
-    background: $color1;
-  }
-  
-  .contactos-form {
-    margin-top: 50px;
-    margin-bottom: 50px;
-  }
-  
-  .contact-form h3,
-  p {
-    color: $color2;
-  }
-  
-  .informacion-1 {
-    margin-top: 14px !important;
-    margin-left: 10px;
-  }
-  
-  .informacion-1 span {
-    color: $color3;
-  }
-  
-  .icons {
-    width: 50px !important;
-    height: 50px !important;
-    border-radius: 50%;
-    background-color: $color5 !important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .icons i {
-    font-size: 20px;
-    color: $color1;
-  }
-  
+  height: auto;
+  background: var(--color1);
+  width: 100%;
+}
+
+.overlay {
+  background: var(--color1);
+}
+
+.contactos-form {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.contact-form h3,
+p {
+  color: var(--color2);
+}
+
+.informacion-1 {
+  margin-top: 14px !important;
+  margin-left: 10px;
+}
+
+.informacion-1 span {
+  color: var(--color3);
+}
+
+.icons {
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 50%;
+  background-color: var(--color5) !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icons i {
+  font-size: 20px;
+  color: var(--color1);
+}
+
+.formus {
+  padding: 20px;
+}
+
+.input_s input {
+  margin-bottom: 13px;
+  border: none;
+  border-bottom: 2px solid var(--color1);
+}
+
+.input_s input:focus {
+  margin-bottom: 13px;
+  border: none;
+  border-bottom: 2px solid var(--color5);
+  box-shadow: none;
+}
+
+.input_s textarea {
+  margin-bottom: 13px;
+  border: none;
+  border-bottom: 2px solid var(--color1);
+  width: 100%;
+  resize: none;
+}
+
+.input_s textarea:focus {
+  margin-bottom: 13px;
+  border: none;
+  border-bottom: 2px solid var(--color5) !important;
+  box-shadow: none;
+  resize: none;
+}
+
+.form-control {
+  padding: 0.375rem 0.25rem;
+}
+
+@media only screen and (max-width: 1200px) {
   .formus {
     padding: 20px;
   }
-  
-  .input_s input {
-    margin-bottom: 13px;
-    border: none;
-    border-bottom: 2px solid $color1;
-  }
-  
-  .input_s input:focus {
-    margin-bottom: 13px;
-    border: none;
-    border-bottom: 2px solid $color5;
-    box-shadow: none;
-  }
-  
-  .input_s textarea {
-    margin-bottom: 13px;
-    border: none;
-    border-bottom: 2px solid $color1;
-    width: 100%;
-    resize: none;
-  }
-  
-  .input_s textarea:focus {
-    margin-bottom: 13px;
-    border: none;
-    border-bottom: 2px solid $color5 !important;
-    box-shadow: none;
-    resize: none;
-  }
-  
-  .form-control {
-    padding: .375rem .25rem;
-  }
+}
 
-
-  @media only screen and (max-width: 1200px) {
-    .formus {
-      padding: 20px;
-    }
+@media only screen and (max-width: 900px) {
+  .formus {
+    padding: 20px;
   }
+}
 
-
-  @media only screen and (max-width: 900px) {
-    .formus {
-      padding: 20px;
-    }
+@media only screen and (max-width: 600px) {
+  .formus {
+    padding: 20px;
   }
+}
 
-
-  @media only screen and (max-width: 600px) {
-    .formus {
-      padding: 20px;
-    }
+@media only screen and (max-width: 300px) {
+  .formus {
+    padding: 20px;
   }
-
-
-  
-  @media only screen and (max-width: 300px) {
-    .formus {
-      padding: 20px;
-    }
-    
-  }
+}
